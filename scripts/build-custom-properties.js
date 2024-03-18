@@ -1,4 +1,4 @@
-import { myDecisions } from "../../../Opi/cero-to-production/components/tokens.js";
+import { myDecisions } from "../tokens.js";
 
 import * as fs from "fs";
 
@@ -21,7 +21,7 @@ const transformTokens = (parentKey, object) => {
 
 const data = `:root {\n\t${transformTokens(null, myDecisions).trim()}\n}`;
 
-fs.writeFile("./tokens.css", data, "utf8", (err) => {
+fs.writeFile("./styles/tokens.css", data, "utf8", (err) => {
   if (err) {
     console.log(err);
   } else {
