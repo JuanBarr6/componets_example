@@ -19,7 +19,6 @@ const config = {
   docs: {
     autodocs: "tag",
   },
-  staticDirs: [path.resolve(__dirname, '../assets')],
 };
 
 export default config;

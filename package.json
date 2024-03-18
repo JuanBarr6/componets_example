@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-custom-properties": "node scripts/build-custom-properties.js",
+    "build-token": "node scripts/build-custom-properties.js",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -25,5 +25,8 @@
     "@storybook/test": "^8.0.1",
     "prop-types": "^15.8.1",
     "storybook": "^8.0.1"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
   }
 }
