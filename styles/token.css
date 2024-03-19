@@ -1,0 +1,83 @@
+:root {
+	--colors-brand-primary:#5E2CA5;
+	--colors-brand-surface-tint:#5E2CA5;
+	--colors-brand-on-primary:#FFFFFF;
+	--colors-brand-primary-container:#D3A6F0;
+	--colors-brand-on-primary-container:#4D285A;
+	--colors-brand-secondary:#2C7A5E;
+	--colors-brand-on-secondary:#FFFFFF;
+	--colors-brand-secondary-container:#A5E4D6;
+	--colors-brand-on-secondary-container:#134F3E;
+	--colors-brand-tertiary:#7A5E2C;
+	--colors-brand-on-tertiary:#FFFFFF;
+	--colors-brand-tertiary-container:#E4D6A5;
+	--colors-brand-on-tertiary-container:#4F3E13;
+	--colors-brand-error:#A52C2C;
+	--colors-brand-on-error:#FFFFFF;
+	--colors-brand-error-container:#E4A5A5;
+	--colors-brand-on-error-container:#4F1313;
+	--colors-brand-background:#F0F0F0;
+	--colors-brand-on-background:#333333;
+	--colors-brand-surface:#F0F0F0;
+	--colors-brand-on-surface:#333333;
+	--colors-brand-surface-variant:#CCCCCC;
+	--colors-brand-on-surface-variant:#666666;
+	--colors-brand-outline:#5E5E5E;
+	--colors-brand-outline-variant:#999999;
+	--colors-brand-shadow:#000000;
+	--colors-brand-scrim:#000000;
+	--colors-brand-inverse-surface:#333333;
+	--colors-brand-inverse-on-surface:#F0F0F0;
+	--colors-brand-inverse-primary:#A75E2C;
+	--colors-brand-primary-fixed:#D3A6F0;
+	--colors-brand-on-primary-fixed:#4D285A;
+	--colors-brand-primary-fixed-dim:#A75E2C;
+	--colors-brand-on-primary-fixed-variant:#663F1E;
+	--colors-brand-secondary-fixed:#A5E4D6;
+	--colors-brand-on-secondary-fixed:#134F3E;
+	--colors-brand-secondary-fixed-dim:#7FD9C2;
+	--colors-brand-on-secondary-fixed-variant:#1E664C;
+	--colors-brand-tertiary-fixed:#E4D6A5;
+	--colors-brand-on-tertiary-fixed:#4F3E13;
+	--colors-brand-tertiary-fixed-dim:#C2B57F;
+	--colors-brand-on-tertiary-fixed-variant:#66571E;
+	--colors-brand-surface-dim:#CCCCCC;
+	--colors-brand-surface-bright:#FFFFFF;
+	--colors-brand-surface-container-lowest:#FFFFFF;
+	--colors-brand-surface-container-low:#F5F5F5;
+	--colors-brand-surface-container:#EBEBEB;
+	--colors-brand-surface-container-high:#E0E0E0;
+	--colors-brand-surface-container-highest:#D6D6D6;
+	--colors-black:#000;
+	--colors-white:#fff;
+	--colors-transparent:transparent;
+	
+	--font-size-xs:0.75rem;
+	--font-size-sm:0.875rem;
+	--font-size-base:1rem;
+	--font-size-lg:1.125rem;
+	--font-size-xl:1.25rem;
+	
+	--border-radius-none:0;
+	--border-radius-sm:0.125rem;
+	--border-radius-md:0.25rem;
+	--border-radius-lg:0.5rem;
+	--border-radius-full:9999px;
+	
+	--shadows-outline:0 0 0 3px rgba(66, 153, 225, 0.5);
+	--shadows-none:none;
+	
+	--shadows-down-sm:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	--shadows-down-md:0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+	--shadows-down-lg:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+	--shadows-down-xl:0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+	--shadows-down-2xl:0 25px 50px -12px rgba(0, 0, 0, 0.25);
+	--shadows-down-inner:inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+	
+	--shadows-up-sm:0 -1px 3px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.06);
+	--shadows-up-md:0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
+	--shadows-up-lg:0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05);
+	--shadows-up-xl:0 -20px 25px -5px rgba(0, 0, 0, 0.1), 0 -10px 10px -5px rgba(0, 0, 0, 0.04);
+	--shadows-up-2xl:0 -25px 50px -12px rgba(0, 0, 0, 0.25);
+	--shadows-up-inner:inset 0 -2px 4px 0 rgba(0, 0, 0, 0.06);
+}

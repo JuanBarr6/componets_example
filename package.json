@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-token": "node scripts/build-custom-properties.js",
+    "build-token": "node scripts/build-token.js",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
