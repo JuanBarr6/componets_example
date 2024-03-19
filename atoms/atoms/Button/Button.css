@@ -4,11 +4,11 @@
     justify-content: center;
     border: 1px solid var(--colors-transparent);
     padding: 10px 20px;
-    border-radius: var(--borderRadius-full);
-    box-shadow: 0px 4px 5px var(--colors-brand-primary);
+    border-radius: var(--border-radius-full);
+    box-shadow: 0px 4px 5px var(--colors-brand-on-primary-container);
     cursor: pointer;
     transition: all 0.5s ease;
-    font-size: var(--fontsize-xl);
+    font-size: var(--font-size-xl);
     max-width: 300px;
     width: 100%;
     min-width: max-content;
@@ -20,28 +20,32 @@
 
 .button:hover {
     filter: brightness(0.9);
+    box-shadow: 0px 1px 10px var(--colors-brand-on-primary-container);
+    ;
 }
 
 .button:active {
     filter: brightness(1.1);
+    box-shadow: none;
 }
 
 .type-primary {
-    background: var(--colors-brand-primaryContainer);
-    color: var(--colors-brand-onPrimary);
+    background: var(--colors-brand-primary-container);
+    color: var(--colors-brand-on-primary);
 }
 
 .type-secondary {
     background: var(--colors-transparent);
-    color: var(--colors-brand-surfaceVariant);
-    border: 1px solid var(--colors-brand-surfaceVariant);
+    color: var(--colors-brand-primary);
+    border: 1px solid var(--colors-brand-primary);
 }
 
 .type-tertiary {
     background: var(--colors-transparent);
-    color: var(--colors-brand-surfaceVariant);
+    color: var(--colors-brand-primary);
     box-shadow: var(--shadows-none);
     padding: 0;
-    border-bottom: 1px solid var(--colors-brand-surfaceVariant);
-    border-radius: var(--borderRadius-none);
+    border-bottom: 1px solid var(--colors-brand-primary);
+    border-radius: var(--border-radius-none);
+    box-shadow: none var(--colors-transparent);
 }

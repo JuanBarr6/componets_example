@@ -483,7 +483,7 @@ export const myDecisions = {
     sm: "0.125rem",
     md: "0.25rem",
     lg: "0.5rem",
-    full: "9999px",
+    full: "100px",
   },
 
   shadows: {
