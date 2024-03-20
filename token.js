@@ -470,7 +470,7 @@ export const myDecisions = {
     sm: "0.125rem",
     md: "0.25rem",
     lg: "0.5rem",
-    full: "9999px",
+    full: "100px",
   },
   shadows: {
     outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",

@@ -60,7 +60,7 @@
 	--borderRadius-sm:0.125rem;
 	--borderRadius-md:0.25rem;
 	--borderRadius-lg:0.5rem;
-	--borderRadius-full:9999px;
+	--borderRadius-full:100px;
 	
 	--shadows-outline:0 0 0 3px rgba(66, 153, 225, 0.5);
 	--shadows-none:none;

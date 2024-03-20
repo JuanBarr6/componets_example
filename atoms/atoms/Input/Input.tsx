@@ -3,16 +3,21 @@ import PropTypes from 'prop-types';
 import './Input.css';
 import classNames from 'classnames';
 
-const Input = ({ label, ...props }) => (
-  <div>
-    <label>{label}</label>
-    <input className={classNames('input', JSON.stringify(props))} />
-  </div>
+const Input = ({ type, value, onChange, placeholder }) => (
+  <input
+    type={type}
+    value={value}
+    placeholder={placeholder}
+    onChange={onChange}
+    className={classNames('input')}
+  ></input>
 );
 
 Input.propTypes = {
-  label: PropTypes.string,
-  type: PropTypes.oneOf(['primary','secondary','tertiary']),
+  type: PropTypes.oneOf(['text']),
+  children: PropTypes.node.isRequired,
+  onChange: PropTypes.func.isRequired,
+  value: PropTypes.string,
   placeholder: PropTypes.string,
 };
 
