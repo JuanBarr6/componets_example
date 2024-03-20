@@ -1,0 +1,5 @@
+.input {
+    border-radius: var(--borderRadius-full);
+    border: 1px solid var(--colors-brand-outline);
+    padding: 10px 20px;
+}
