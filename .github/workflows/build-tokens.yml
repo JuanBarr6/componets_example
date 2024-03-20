@@ -1,0 +1,31 @@
+name: Generar CSS desde Tokens de Diseño
+
+on:
+  push:
+    paths:
+      - 'tokens.js'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Configurar Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14'
+
+    - name: Instalar dependencias
+      run: npm install
+
+    - name: Generar archivos CSS
+      run: npm run build-token
+
+    - name: Commit archivos CSS
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -f styles/*.css
+        git commit -m "Actualizar archivos CSS" -a || echo "No hay cambios para commit."
+        git push
