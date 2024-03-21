@@ -13,5 +13,5 @@ type Story = StoryObj<typeof Input>;
 
 export const Text: Story = {
   name: 'Text',
-  render: () => <Input type='text' />,
+  render: () => <Input type='text' placeholder='Nombre' />,
 };

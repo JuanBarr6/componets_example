@@ -2,4 +2,16 @@
     border-radius: var(--borderRadius-full);
     border: 1px solid var(--colors-brand-outline);
     padding: 10px 20px;
+    transition: all 0.5s ease;
+    font-size: var(--fontSize-xl);
+}
+
+.input:focus {
+    border: 1px solid var(--colors-brand-primaryContainer);
+    outline: none;
+
+}
+
+.input::placeholder {
+    color: var(--colors-brand-outline);
 }
